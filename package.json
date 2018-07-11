@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "nuka-carousel": "^4.2.5",
+    "react-responsive-carousel": "^3.1.41",
+    "react-simple-carousel": "^1.0.1"
+  }
+}
