@@ -1,4 +1,4 @@
-{
+ {
   "extends": ["standard", "standard-react"],
   "env": {
     "jest": true
@@ -25,4 +25,4 @@
     "no-unused-expressions": "off",
     "react/prop-types": [2, { "skipUndeclared": true }]
   }
-}
+} 
