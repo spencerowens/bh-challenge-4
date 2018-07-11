@@ -1,11 +1,19 @@
 import React from 'react'
 import { Redirect } from 'react-router-dom'
-
+import default loginProcess
 import * as actions from './actions'
 import connected from 'State/connect'
 import { selector as UsersState } from 'Process/users/reducer'
 
-const loginProcess = WrappedComponent => {
+class Login extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {email: 'bryce@helio.com',
+          password: '123'
+         }
+       }
+
+loginProcess = WrappedComponent => {
   class Login extends React.Component {
     handleClick = (email, password) => {
       this.props.userAuthActions.fetch(email, password)
