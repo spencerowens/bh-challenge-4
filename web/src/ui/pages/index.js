@@ -37,6 +37,7 @@ class App extends Component {
               <Redirect to={{ pathname: '/landing', state: { from: this.props.location } }} />
             })} />
             <Route exact path="/challenges/pyramid" component={(pyramid)} />
+            <Route exact path="/challenges/string manipulation" component={(string manipulation)} />
             <Route component={BadRequest} />
           </Switch>
         </div>

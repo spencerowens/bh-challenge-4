@@ -21,13 +21,21 @@ class LandingPage extends Component {
   render() {
     // Add another Link (react-router) to the page for the string manipulation challenge
     return (
+      <div>
+        <ol>
+          <li>
+            <Link to="/challenges/string manipulation">String Manipulation Challenge</Link>
+          </li>
+        </ol>    
+      </div>
+
       <div styleName="container">
         <h1>Challenges</h1>
-        <ol>
+         <ol>
           <li>
             <Link to="/challenges/pyramid">Pyramid Challenge</Link>
           </li>
-        </ol>
+         </ol>
       </div>
     )
   }

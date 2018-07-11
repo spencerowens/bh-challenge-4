@@ -5,14 +5,15 @@
 
 import React, { Component } from 'react'
 
-class Homepage extends Component {
+class Modal extends Component {
   render() {
     return (
       <div>
-        Homepage here!!!!!
+        <Modal>
+          Hi Im the Modal
       </div>
     )
   }
 }
 
-export default Homepage
+export default Modal
